@@ -13,8 +13,8 @@ router.post('/', function (req, res, next) {
       length: req.body.string.length
     };
     // render makes Postman return HTML instead of JSON?
-    res.render('ps3_post', object);
-    return res.json(object)});
+    // res.json(object);
+    res.render('ps3_post', object)});
 
 
 module.exports = router;
