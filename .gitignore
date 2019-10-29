@@ -59,3 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# stuff
+node_modules
+.idea/
+PS1/
+PS2/
+PS3/

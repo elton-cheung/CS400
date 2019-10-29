@@ -1,9 +1,0 @@
-extends layout
-
-block content
-    p #{string}
-    h6 The above is a fixed string rendered into a Pug template.
-    h6 Try using a POST request from Postman to return a JSON object, or:
-    form(method="post" action="/ps3")
-        input(type="text" name="string" class="input-text")
-        input(type="submit" value="Submit")
