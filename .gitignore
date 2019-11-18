@@ -61,6 +61,7 @@ typings/
 .next
 
 # stuff
+.gitignore
 .idea/
 PS1/
 PS2/
