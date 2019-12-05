@@ -1,0 +1,14 @@
+<div style="border: solid; padding-left: 2em; margin-top: 2em">
+  <h4>Results component</h4>
+  <ul>
+    <li *ngFor="let rate of rates">
+      On {{rate.date}}, the currency exchange rates for USD were: <br>
+      CAD: {{rate.rates.CAD}} <br>
+      EUR: {{rate.rates.EUR}} <br>
+      CNY: {{rate.rates.CNY}} <br>
+      JPY: {{rate.rates.JPY}} <br>
+      GBP: {{rate.rates.GBP}}
+    </li>
+  </ul>
+</div>
+

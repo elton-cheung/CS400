@@ -1,0 +1,7 @@
+<div style="border:solid; padding-left: 2em; padding-bottom: 2em; margin-bottom: 2em">
+  <h2>Currency Exchange</h2>
+  <h4>Elton Cheung</h4>
+  <p>Get the currency exchange rates for a given calendar date past 1999. If this date's rates have been previously queried, they will be retrieved from cache. If not, they will be grabbed using the API.</p>
+</div>
+<app-form (rates)="addRates($event)"></app-form>
+<app-results [rates]="rates" *ngIf="rates"></app-results>

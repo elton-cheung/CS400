@@ -1,0 +1,12 @@
+<div style="border:solid; padding-left: 2em; padding-bottom: 2em">
+  <h4> Form Component: </h4>
+
+
+  <form [formGroup]="formGroup" (ngSubmit)="submitQuery()">
+    <label>Date:
+      <input type="date" formControlName="date">
+    </label>
+
+    <button type="submit" [disabled]="!formGroup.valid">Get rates</button>
+  </form>
+</div>
